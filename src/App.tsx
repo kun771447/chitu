@@ -1,9 +1,7 @@
+import { Editor } from "./Editor";
+
 const App = () => {
-  return <div>
-    <h2 className="text-[pink]">
-      Hello Tailwind
-    </h2>
-  </div>;
+  return <Editor />;
 };
 
 export default App;
